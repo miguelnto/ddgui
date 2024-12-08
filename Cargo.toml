@@ -1,0 +1,17 @@
+[package]
+name = "ddgui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29.1"
+egui-file-dialog = "0.7.0"
+egui-dropdown = "0.11"
+lsblk = "0.4.0"
+egui-notify = "0.17.0"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
